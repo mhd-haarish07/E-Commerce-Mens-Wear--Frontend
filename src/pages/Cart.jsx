@@ -41,10 +41,10 @@ const Cart = () => {
   return (
     <>
       <Navbar />
-      <section id="page-header" className="cart-page-header">
+      {/* <section id="page-header" className="cart-page-header">
         <h2>#YOUR CART</h2>
         <p>{cart.reduce((s,i) => s+i.qty, 0)} item{cart.reduce((s,i)=>s+i.qty,0)!==1?"s":""} in your cart</p>
-      </section>
+      </section> */}
 
       {/* ── CART ITEMS — single responsive layout, no duplicate render ── */}
       <section className="cart-section section-p1">
