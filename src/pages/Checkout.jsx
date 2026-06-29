@@ -217,14 +217,14 @@ const Checkout = () => {
     return (
       <>
         <Navbar />
-        {/* <div className="empty-cart">
+        <div className="empty-cart">
           <div className="empty-cart-inner">
             <i className="far fa-shopping-bag empty-cart-icon"></i>
             <h2>Your cart is empty</h2>
             <p>Add items to your cart before checking out.</p>
             <Link to="/shop" className="btn-outline" style={{ display: "inline-block", marginTop: 16 }}>Browse Shop</Link>
           </div>
-        </div> */}
+        </div>
         <Footer />
       </>
     );
@@ -261,10 +261,10 @@ const Checkout = () => {
   return (
     <>
       <Navbar />
-      <section id="page-header" style={{ minHeight: 160 }}>
+      {/* <section id="page-header" style={{ minHeight: 160 }}>
         <h2>#CHECKOUT</h2>
         <p>Complete your order in a few steps</p>
-      </section>
+      </section> */}
 
       {/* Step indicator */}
       <div className="checkout-steps">
